@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         Popmart Auto Booking UI 1.5
-// @namespace    http://tampermonkey.net/
-// @version      1.5
-// @description  UI สำหรับจองคิว Popmart
-// @match        https://popmartth.rocket-booking.app/*
-// @grant        none
-// ==/UserScript==
-
-(function () {
-    'use strict';
-
     const branches = [
         'MEGABANGNA','Icon Siam','Terminal 21','Central Ladprao','Siam Center','Fashion Island',
         'Centralworld','Siam Square','Central Pattaya','Seacon Square','Central Westgate','Central Chiangmai'
@@ -277,5 +265,3 @@
         } catch (err) {
             log("❌ ERROR: " + err.message);
         }
-    });
-})();
